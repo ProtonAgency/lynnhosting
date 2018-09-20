@@ -70,6 +70,15 @@ Clone `https://github.com/lynndigital/lynnhosting` into a directory of your choi
 | `BRAINTREE_PUBLIC_KEY` | Braintree Public Key | `n.e.g` |
 | `BRAINTREE_PRIVATE_KEY` | Braintree Private Key | `n.e.g` |
 
+Once these values have been updated please save and reupload the `.env` file to your server. Then run the following commands:
+
+```bash
+$ sudo chgrp -R www-data storage bootstrap/cache
+$ sudo chmod -R ug+rwx storage bootstrap/cache
+$ php artisan key:generate
+$ php artisan migrate
+```
+
 ### Adding Plans
 
 We use Laravels Artisan Command Wrapper for terminal commands, you can add locations and commands via the terminal. SSH into the installation directory and run `php artisan plan:new {name} {databases} {storage} {bandwidth} {emails} {domains} {price} {braintree_id}`. You must fill all values in brackets.
@@ -134,4 +143,6 @@ Match Group sftpusers
    PasswordAuthentication yes
 ```
 
-Now restart sshd `sudo service sshd restart`. 
+Now restart sshd `sudo service sshd restart`. Your server location has been setup!
+
+TIP: If you use DigitalOcean, you can create a snapshot of your server and easily install it on other servers.
