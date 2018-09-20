@@ -79,6 +79,16 @@ $ php artisan key:generate
 $ php artisan migrate
 ```
 
+You've setup the Lynn Hosting Laravel Panel! You'll now need to edit some of the blade templates.
+
+| Template | Location |
+|---|---|
+| Terms of Service | `~/resources/views/legal.blade.php` |
+| Privacy Policy | `~/resources/views/legal.blade.php` |
+| Contact | `~/resources/views/contact.blade.php` |
+
+To automate Container Setup you'll need to install `Supervisor` a process control system. Once it's installed add a process called `lynnhosting-queue-high`, the process command should be `php /path/to/laravel/artisan queue:work --queue=high -vvv`. Once it's added restart `Supervisor`.
+
 ### Adding Plans
 
 We use Laravels Artisan Command Wrapper for terminal commands, you can add locations and commands via the terminal. SSH into the installation directory and run `php artisan plan:new {name} {databases} {storage} {bandwidth} {emails} {domains} {price} {braintree_id}`. You must fill all values in brackets.
