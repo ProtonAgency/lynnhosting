@@ -75,6 +75,7 @@ Once these values have been updated please save and reupload the `.env` file to 
 ```bash
 $ sudo chgrp -R www-data storage bootstrap/cache
 $ sudo chmod -R ug+rwx storage bootstrap/cache
+$ composer update
 $ php artisan key:generate
 $ php artisan migrate
 ```

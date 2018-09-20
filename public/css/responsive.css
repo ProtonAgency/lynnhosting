@@ -1,0 +1,811 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Header-area Start */
+    .account-btn a {
+        padding: 15px 10px;
+        width: 170px;
+        font-size: 11px;
+    }
+    /* Header-area End */
+    /* service-area Start */
+    .service-btm-text h3 br {
+        display: none;
+    }
+    /* service-area End */
+    /* map-area Start */
+    .map-area .section-title-heading h2 {
+        font-size: 26px;
+    }
+    .map-location-area {
+        background-position: center center;
+    }
+    /* map-area End */
+    /* section-area Start */
+    .section-title-heading p br {
+        display: none;
+    }
+    /* section-area End */
+    /* Home Page Two Start */
+    a.price-btn {
+        padding: 20px;
+    }
+    /* Home Page Two End */
+    /* -area Start */
+    .section-heading {
+        text-align: center;
+        padding: 0 150px;
+        padding-bottom: 80px;
+    }
+    .brand-area .section-heading {
+        padding: 0 75px;
+        padding-bottom: 80px;
+    }
+    /* -area End */
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* =========================================
+			Jobs Page Start
+       ========================================= */
+    .single-job-info h4 {
+        font-size: 18px;
+    }
+    /* =========================================
+			Jobs Page End
+       ========================================= */
+    /* =========================================
+			Team Page Start
+       ========================================= */
+    .single-team {
+        padding-right: 0;
+    }
+    /* =========================================
+			Team Page End
+       ========================================= */
+    /* =========================================
+			faq Page Start
+       ========================================= */
+    .single-faq h3 {
+        font-size: 17px;
+    }
+    .single-faq p br {
+        display: none;
+    }
+    /* =========================================
+			faq Page End
+       ========================================= */
+    /* =========================================
+			contact Page Start
+       ========================================= */
+    .single-contact-issue {
+        padding: 30px 10px;
+    }
+    /* =========================================
+			contact Page End
+       ========================================= */
+    /* =========================================
+			Domain Page Start
+       ========================================= */
+    .cart-box-area {
+        margin-top: 60px;
+        padding-left: 0;
+    }
+    /* =========================================
+			Domain Page Start
+       ========================================= */
+    /* =========================================
+			Home Page Two Start
+       ========================================= */
+    .home-2 .mainmenu ul li a {
+        font-size: 11px;
+    }
+    .home-2 .mainmenu .sub-siblings:after {
+        font-size: 12px;
+        top: 49%;
+    }
+    .hero-2-domain-area-content {
+        padding: 60px 40px;
+    }
+    .home2-header-righ .account-btn {
+        right: 0;
+    }
+    /* =========================================
+			Home Page Two Start
+       ========================================= */
+    /* =========================================
+			Home Page Start
+       ========================================= */
+    /* slicknav_menu-area Start */
+    .logo {
+        padding: 32px 5px;
+    }
+    .mainmenu ul li a {
+        padding: 34px 11px;
+    }
+    .account-btn {
+        margin-top: 8px;
+        right: -45px;
+        width: 150px;
+    }
+    .account-btn a {
+        width: 150px;
+        font-size: 10px;
+    }
+    .mainmenu ul li ul {
+        left: 0;
+    }
+    .mainmenu ul li a {
+        font-size: 11px;
+    }
+    .mainmenu ul li ul li a {
+        font-size: 13px;
+    }
+    .mainmenu .sub-siblings:after {
+        top: 49%;
+        font-size: 10px;
+    }
+    .login-btn-area {
+        padding: 8px 10px;
+    }
+    .slicknav_menu {
+        display: block
+    }
+    .responsive-menu {
+        position: absolute;
+        right: 0;
+        top: 15px;
+        z-index: 999
+    }
+    .slicknav_btn {
+        background: transparent none repeat scroll 0 0;
+        margin: 0;
+    }
+    .slicknav_menu {
+        background: none;
+        display: none;
+    }
+    .slicknav_menu {
+        background: none;
+    }
+    .slicknav_nav {
+        width: 300px;
+        background-color: #fff;
+    }
+    /*
+    .mainmenu {
+        display: none;
+    }
+*/
+    /* slicknav_menu-area End */
+    /* service-area Start */
+    .hero-area-content h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    /* service-area End */
+    /* accordion-area End */
+    /* product-area Start */
+    .single-product h4 {
+        font-size: 12px;
+    }
+    /* product-area End */
+    /* product-area End */
+    a.price-btn {
+        padding: 20px 40px;
+    }
+    .pricing-area .owl-controls {
+        position: absolute;
+        bottom: -65px;
+        width: 100%;
+        left: 0;
+        height: 70px;
+    }
+    .pricing-area .owl-nav {
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        width: 100%;
+        -webkit-transition: .4s;
+        transition: .4s;
+        height: 80px;
+    }
+    .pricing-area .owl-controls .owl-nav .owl-prev {
+        left: 3%;
+    }
+    .pricing-area .owl-controls .owl-nav .owl-next {
+        right: 3%;
+    }
+    /* product-area End */
+    /* section-title-area Start */
+    .section-title-heading p br {
+        display: none;
+    }
+    /* section-title-area End */
+    /* service-area Start */
+    .service-btm-text h3 br {
+        display: none;
+    }
+    .service-btm-text {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    /* service-area End */
+    /* service-area Start */
+    .footer-bottom {
+        padding: 15px 0 0;
+    }
+    .footer-paragraph p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .footer-bottom li {
+        line-height: 40px;
+    }
+    .footer-middle a {
+        font-size: 13px;
+    }
+    .footer-bottom-content {
+        padding: 30px 0;
+    }
+    .footer-social-icon {
+        text-align: center;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+    /* service-area End */
+    /* ======================================
+			Home Page End
+========================================= */
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    /* ====================================
+			team Page Start
+   ======================================= */
+    .single-team {
+        padding-right: 0;
+    }
+    .team-page-member-main-content .col-md-4:nth-child(3) .single-team {
+        padding-left: 0;
+    }
+    /* ====================================
+			team Page End
+   ======================================= */
+    /* ====================================
+			Jobs Page Start
+   ======================================= */
+    .video-area-bg {
+        height: 270px;
+    }
+    .video-area-bg a {
+        top: 38%;
+    }
+    /* ====================================
+			jobs Page End
+   ======================================= */
+    /* ====================================
+			faq Page Start
+   ======================================= */
+    .single-faq.single-faq2 {
+        padding-top: 75px;
+    }
+    /* ====================================
+			faq Page End
+   ======================================= */
+    /* ====================================
+			contact Page Start
+   ======================================= */
+    .single-contact-issue {
+        margin-bottom: 30px;
+    }
+    /* ====================================
+			contact Page End
+   ======================================= */
+    /* ====================================
+			domain Page Start
+======================================= */
+    .signup-form {
+        margin: 0 auto;
+        width: 290px;
+    }
+    /* ====================================
+			domain Page Start
+======================================= */
+    /* ====================================
+			domain Page Start
+======================================= */
+    .domain-area {
+        padding-bottom: 100px;
+    }
+    .cart-box {
+        padding-top: 60px;
+    }
+    .domain-search-btn input {
+        margin-left: 6px;
+        margin-top: 20px;
+        width: 96%;
+    }
+    .domain-single-price-left.special-prices {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+    }
+    .domain-single-price-right {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        width: auto;
+    }
+    .domain-price {
+        float: left;
+        text-align: left;
+        width: 65%;
+    }
+    .cart-box-area {
+        padding-left: 0;
+    }
+    .domain-cart {
+        float: left;
+    }
+    .domain-single-price-left {
+        display: block;
+        margin-bottom: 30px;
+        text-align: left;
+        width: 100%;
+    }
+    /* ====================================
+			domain Page End
+   ======================================= */
+    /*====================================
+                About Page Start
+    =======================================*/
+    .single-counter {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .col-sm-4:last-child .single-counter {
+        margin-bottom: 0;
+    }
+    /*====================================
+                About Page End
+    =======================================*/
+    /*====================================
+                Home Page Two Start
+    =======================================*/
+    .home2-header-righ .login-btn-area {
+        margin-bottom: 30px;
+        padding: 13px 10px;
+        width: auto;
+    }
+    .home2-header-righ .account-btn {
+        margin-top: 13px;
+        width: auto;
+    }
+    .home2-header-righ .account-btn a {
+        font-size: 12px;
+    }
+    .hero-area.home2-hero-area {
+        height: 755px;
+    }
+    .home-2 .hero-area h1 {
+        font-size: 29px;
+        line-height: 38px;
+    }
+    .input-1 input {
+        border-right-width: 2px;
+        font-size: 11px;
+    }
+    .home-2 .section-title-heading h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .home-2 .section-padding {
+        padding-top: 0;
+    }
+    .home-2 .price-silder-wrapper.owl-carousel.owl-theme.owl-responsive-300.owl-loaded {
+        overflow: hidden;
+    }
+    .pricing-area.hero2-search-domain-area .section-heading {
+        padding-bottom: 30px;
+    }
+    .hero-2-domain-area-content {
+        margin-top: -90px;
+    }
+    /*====================================
+                Home Page Two End
+    =======================================*/
+    /*====================================
+                Home Page Start
+    =======================================*/
+    /* slicknav_menu-area Start */
+    .login-btn-area {
+        padding: 32px 10px;
+    }
+    .account-btn {
+        margin-top: 32px;
+        width: 100px;
+        right: -35px;
+    }
+    .account-btn a {
+        padding: 15px 10px;
+        width: 100px;
+        font-size: 9px;
+        margin-left: -25px;
+    }
+    .header-right {
+        margin-top: 0;
+    }
+    /* slicknav_menu-area Start */
+    /* slicknav_menu-area Start */
+    .doctor-home-page .mainmenu ul li ul {
+        text-align: left;
+    }
+    .slicknav_menu {
+        display: block
+    }
+    .responsive-menu {
+        position: absolute;
+        right: 0;
+        top: 15px;
+        z-index: 999
+    }
+    .slicknav_btn {
+        background: transparent none repeat scroll 0 0;
+        margin: 0;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    .slicknav_menu {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        z-index: 99999;
+    }
+    .slicknav_nav {
+        position: relative;
+        width: 100%;
+    }
+    .mainmenu {
+        display: none;
+    }
+    /* slicknav_menu-area End */
+    /* hero-area Start */
+    .hero-area {
+        height: 550px;
+    }
+    .hero-area-content {
+        padding-top: 0;
+    }
+    .hero-area h1 {
+        font-size: 30px;
+        line-height: 48px;
+        margin-bottom: 20px;
+    }
+    .hero-area h1 br {
+        display: none;
+    }
+    .hero-area p {
+        font-size: 16px;
+    }
+    .hero-area p br {
+        display: none;
+    }
+    /* hero-area End */
+    /* hero-area End */
+    .hero-img {
+        display: none;
+    }
+    .section-title-heading p br {
+        display: none;
+    }
+    .pricing-area .owl-nav {
+        top: auto;
+        bottom: -79px;
+    }
+    .owl-prev {}
+    .pricing-area .owl-controls .owl-nav .owl-prev {}
+    .pricing-area .owl-controls .owl-nav .owl-prev {
+        left: 15%;
+        bottom: 0;
+    }
+    .owl-next {}
+    .pricing-area .owl-controls .owl-nav .owl-next {
+        right: 25%;
+        bottom: 0;
+    }
+    /* hero-area End */
+    /* product-area Start */
+    .product-area .col-md-3 {
+        width: 50%;
+    }
+    a.single-product {
+        margin-bottom: 30px;
+    }
+    .single-product h4 {
+        font-size: 14px;
+    }
+    /* product-area End */
+    /* service-area Start */
+    .service-btm-text {
+        padding-left: 0;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .service-btm-text h3 br {
+        display: none;
+    }
+    /* service-area End */
+    /* Map-area Start */
+    .section-title-heading {
+        padding: 0px 12px;
+    }
+    .map-location-area .getstarted-btn {
+        left: 26%;
+    }
+    .map-location-area {
+        background: transparent;
+        padding: 80px 0;
+        padding-top: 0;
+        background-position: bottom right;
+    }
+    .single-location.toronto {
+        width: 80%;
+        text-align: left;
+        left: 0;
+        position: relative;
+        margin-top: 0;
+    }
+    .single-location.toronto {
+        /*! display: inline-flex; */
+        background: #fff;
+        z-index: 9;
+    }
+    .single-location h6 {
+        float: left;
+    }
+    .single-location {
+        height: 85px;
+        border-bottom: 1px solid #efefef;
+        padding-top: 10px;
+        background: #fff;
+        width: 100% !important;
+        padding-left: 35px;
+    }
+    .single-location.sanfrancisco {
+        position: relative;
+        width: 80%;
+        margin-top: 0;
+        left: 0;
+    }
+    .single-location.newyork {
+        position: relative;
+        margin-top: 0;
+        left: 0;
+        width: 80%;
+    }
+    .single-location.london {
+        position: relative;
+        margin-top: 0;
+        margin-left: 0;
+        width: 80%;
+    }
+    .single-location.singapore {
+        position: relative;
+        width: 80%;
+        right: 0;
+        margin-top: 0;
+    }
+    .map-dropdown-address {
+        margin-left: 15px;
+    }
+    .map-dropdown-address a {
+        color: #2079ff;
+    }
+    .Dropdown-content {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        width: 74%;
+        float: right;
+        position: relative;
+        right: 15px;
+        bottom: 23px;
+        background: transparent;
+        box-shadow: none;
+    }
+    .Dropdown-content {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        width: 66%;
+        float: right;
+        position: relative;
+        right: 15px;
+        bottom: 23px;
+        background: transparent;
+        box-shadow: none;
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        visibility: visible;
+    }
+    /* Map-area End */
+    /* brand-area Start */
+    .brand-area-top .col-sm-3.col-xs-6 {
+        width: 50%;
+    }
+    .brand-area .col-md-8.col-md-offset-2 {
+        padding: 15px;
+    }
+    /* brand-area End */
+    /* footer-area Start */
+    .footer-widget-area {
+        padding: 100px 0 30px;
+    }
+    .footer-bottom-content {
+        padding: 30px 0;
+    }
+    .footer-bottom {
+        padding: 15px 0;
+    }
+    .single-widget {
+        padding-bottom: 40px;
+    }
+    .footer-bottom-content {
+        padding: 30px 0 20px;
+    }
+    .footer-paragraph p {
+        font-size: 10px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .footer-middle {
+        text-align: center;
+    }
+    .footer-bottom li {
+        line-height: 45px;
+    }
+    .footer-middle a {
+        font-size: 12px;
+        padding: 0 5px;
+    }
+    .footer-social-icon {
+        text-align: center;
+    }
+    /* footer-area End */
+    /* hero-area-two-area Start */
+    /* hero-area-two-area End */
+    /* ====================================
+			Home Page End
+======================================= */
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* ===========================================
+			domain Page Start
+============================================== */
+    .special-prices .domain-single-price-right {
+        margin-top: 18px;
+    }
+    .domain-single-price-right {
+        float: right;
+        margin-top: 8px;
+        width: 44%;
+    }
+    .domain-single-price-left {
+        text-align: left;
+        width: 55%;
+    }
+    .domain-single-price-left .available-text h3 {
+        font-size: 19px;
+    }
+    .check-box i {
+        margin-right: 10px;
+        top: 23px;
+    }
+    .domain-price h3 {
+        font-size: 18px;
+    }
+    .domain-price h4 {
+        font-size: 13px;
+    }
+    .domain-cart i {
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
+        width: 40px;
+    }
+    .cart-box-area {
+        padding-left: 0;
+    }
+    .domain-cart {
+        margin-left: 5px;
+    }
+    .domain-price {
+        text-align: right;
+    }
+    .domain-cart span i {
+        height: 40px;
+        left: 7px;
+        top: 0;
+        width: 40px;
+    }
+    /* ===========================================
+			domain Page Start
+============================================== */
+    /* ===========================================
+			About Page Start
+============================================== */
+    .counter-area-content .col-sm-4 {
+        width: 32%;
+        float: left;
+    }
+    .single-counter {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    /* ===========================================
+			About Page End
+============================================== */
+    /* ===========================================
+			Heme Page Start
+============================================== */
+    .account-btn {
+        width: 150px;
+    }
+    .account-btn a {
+        padding: 15px 25px;
+        width: 150px;
+        font-size: 11px;
+    }
+    /* slicknav_nav-area Start */
+    .slicknav_nav {
+        float: right;
+        margin-top: -4px;
+        position: relative;
+        width: 50%;
+    }
+    /* slicknav_nav-area End */
+    /* accordion-area Start */
+    .acordion-area {
+        height: 345px !important;
+    }
+    .togglefaq {
+        font-size: 18px;
+    }
+    .faqanswer>p {
+        font-size: 16px;
+    }
+    /* accordion-area End */
+    /* support-area Start */
+    .support-area-txt>h3 {
+        text-align: center;
+    }
+    /* support-area End */
+    /* support-area Start */
+    .footer-paragraph>p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer-middle {
+        text-align: center;
+    }
+    .footer-middle a {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    /* support-area End */
+    /* ===========================================
+			Heme Page End
+============================================== */
+}
