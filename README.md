@@ -125,7 +125,7 @@ Use `&&` to join multiple commands, you can use `%h` to represent the containers
 
 ## Server Location Setup
 
-To create a Lynn Hosting Server Location please download and run our [Install Script](https://gist.github.com/0x15f/ef932499aa036a3808443fd44a8ac9a4). Once the script has ran please continue with the [More Steps](#more-steps) section.
+To create a Lynn Hosting Server Location please execute `wget -O - https://gist.githubusercontent.com/0x15f/ef932499aa036a3808443fd44a8ac9a4/raw/15448c95cd7319e94bd0a213e805cfabebe5a109/install.sh | bash`. Once the script has ran please continue with the [More Steps](#more-steps) section.
 
 ### More Steps
 
