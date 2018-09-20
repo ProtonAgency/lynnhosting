@@ -158,7 +158,5 @@ Now restart sshd `sudo service sshd restart`. Your server location has been setu
 # Third-Party Libraries Used
 
 [phpseclib](https://github.com/phpseclib/phpseclib)
-
 [predis](https://github.com/predis/predis)
-
 [pusher](https://github.com/pusher/pusher-http-server)
