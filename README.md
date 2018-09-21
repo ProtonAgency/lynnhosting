@@ -2,11 +2,13 @@
 
 ## License
 
-All features from the hosted app are included in the open-source code. We offer a $15 per year white-label license to remove our branding for personal or business use.
+All features from the hosted app are included in the open-source code. By default Lynn Hosting uses the `GNU AGPL License`, for $15 a year you can purchase an MIT license. Any modifications made to the software MUST be open sourced if using the `GNU AGPL License`.
 
-### Branding Removal
+### Branding Removal & MIT License
 
-To purchase a white-label license to remove our branding please email `sales@lynndigital.com`. Once your license key has been purchased you'll set it in your `.env` file for the Lynn Hosting Laravel Panel. The license key will then be inserted in a meta tag on all pages of your site. It allows us to determine if a license has been issued for a site or not, if you attempt to remove our branding without a license we will file a DMCA takedown request with your Domain and Web provider(s). If necessary legal action will be taken.
+To purchase an MIT License to remove our branding and close source your modifications please email `sales@lynndigital.com`. Once your license key has been purchased you'll set it in your `.env` file for the Lynn Hosting Laravel Panel. The license key will then be inserted in a meta tag on all pages of your site. It allows us to determine if a license has been issued for a site or not, if you attempt to remove our branding without a license we will file a DMCA takedown request with your Domain and Web provider(s). If necessary legal action will be taken.
+
+
 
 ## About
 
