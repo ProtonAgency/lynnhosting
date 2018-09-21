@@ -75,6 +75,8 @@ class CreateContainer implements ShouldQueue
         
         $container->createDatabases($container->id);
 
+        $user->newSubscription($container->name, $plan->braintree_id)->create($user->braintree_id);
+
         $ssh = new SSH2($location->host, $location->port);
         $login = $ssh->login('root', $location->password);
         if(!$login)
